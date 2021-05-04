@@ -4,6 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person(given = "Andreas",
            family = "Beccau",
+           email = "first.last@example.com",
            role = c("aut", "cre"))
 Description: This package contains some basic functions for options pricing etc.
 License: MIT

@@ -14,7 +14,7 @@ bsimpv <- function(strike, spot, days_to_exp, value, type) {
 #' @export 
 bsimpv_call <- function(strike, spot, days_to_exp, call_value) {
   bs1 = function(v1) {
-    b = bs_call(strike = strike, spot = spot, days_to_exp = days_to_exp, vol=v1)
+    b <- bs_call(strike = strike, spot = spot, days_to_exp = days_to_exp, vol=v1)
     return (b - call_value)
   }
   
@@ -31,7 +31,7 @@ bsimpv_call <- function(strike, spot, days_to_exp, call_value) {
 #' @export 
 bsimpv_put <- function(strike, spot, days_to_exp, put_value) {
   bs1 = function(v1) {
-    b = bs_put(strike = strike, spot = spot, days_to_exp = days_to_exp, vol=v1)
+    b <- bs_put(strike = strike, spot = spot, days_to_exp = days_to_exp, vol=v1)
     return (b - put_value)
   }
   

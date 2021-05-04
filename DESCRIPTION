@@ -1,16 +1,16 @@
 Package: derivr
-Title: What the Package Does (One Line, Title Case)
+Title: A basic R library for calculations on derivatives
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Andreas",
            family = "Beccau",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           role = c("aut", "cre"))
+Description: This package contains some basic functions for options pricing etc.
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+Suggests: 
+    testthat,
+    pracma
